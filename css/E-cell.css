@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial;
+    background-image: url('/img/Asset1.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+    
+}
+
+    
+#button{
+    margin-top:60px ;
+    font-weight: bold;
+    color: #153959;
+    border-radius: 20px;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(228, 226, 147);
+    cursor: pointer;
+
+}
+header img{
+    width: 100px;
+    margin: 30px;
+}
+header{
+    display: flex;
+}
+nav{
+    height: 50px;
+    margin-top: 50px;
+    padding-left:100px;
+}
+#para{
+    color:#abc1da
+}
+#msg{
+  
+    display: block;
+    width: 358px;
+    padding:50px;
+}
+#welcome{
+    color: rgb(228, 226, 147);
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+#navbar{
+   
+    margin-left:300px;
+    display: flex;
+    justify-content: space-between;
+}
+#navbar a{
+    
+    margin: 20px 35px;
+    
+    padding-bottom: 18px;
+    
+
+    
+    color: rgb(228, 226, 147);
+    text-decoration: none;
+    
+}
+#quote{
+    text-align: end;
+    color: white;
+    position: absolute;
+    bottom: 12px;
+    right: 25px;
+}
+p span{
+    color:rgb(159, 216, 210);
+}
+#navbar a:hover{
+    border-bottom: white 3px solid;
+
+    
+    
+    cursor: pointer;
+
+}
